@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74E402F21C1058230034F9A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E402F11C1058230034F9A1 /* AppDelegate.swift */; };
+		74E402F41C1058230034F9A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E402F31C1058230034F9A1 /* Assets.xcassets */; };
+		74E402F71C1058230034F9A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E402F51C1058230034F9A1 /* MainMenu.xib */; };
+		74E403021C1058230034F9A1 /* patatan_jsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E403011C1058230034F9A1 /* patatan_jsTests.swift */; };
+		74E4030D1C1058230034F9A1 /* patatan_jsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E4030C1C1058230034F9A1 /* patatan_jsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74E402FE1C1058230034F9A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74E402E61C1058230034F9A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E402ED1C1058230034F9A1;
+			remoteInfo = patatan.js;
+		};
+		74E403091C1058230034F9A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74E402E61C1058230034F9A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E402ED1C1058230034F9A1;
+			remoteInfo = patatan.js;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74E402EE1C1058230034F9A1 /* patatan.js.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = patatan.js.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E402F11C1058230034F9A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74E402F31C1058230034F9A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74E402F61C1058230034F9A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		74E402F81C1058230034F9A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E402FD1C1058230034F9A1 /* patatan.jsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = patatan.jsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E403011C1058230034F9A1 /* patatan_jsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patatan_jsTests.swift; sourceTree = "<group>"; };
+		74E403031C1058230034F9A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E403081C1058230034F9A1 /* patatan.jsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = patatan.jsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E4030C1C1058230034F9A1 /* patatan_jsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patatan_jsUITests.swift; sourceTree = "<group>"; };
+		74E4030E1C1058230034F9A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74E402EB1C1058230034F9A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E402FA1C1058230034F9A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E403051C1058230034F9A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74E402E51C1058230034F9A1 = {
+			isa = PBXGroup;
+			children = (
+				74E402F01C1058230034F9A1 /* patatan.js */,
+				74E403001C1058230034F9A1 /* patatan.jsTests */,
+				74E4030B1C1058230034F9A1 /* patatan.jsUITests */,
+				74E402EF1C1058230034F9A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74E402EF1C1058230034F9A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74E402EE1C1058230034F9A1 /* patatan.js.app */,
+				74E402FD1C1058230034F9A1 /* patatan.jsTests.xctest */,
+				74E403081C1058230034F9A1 /* patatan.jsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74E402F01C1058230034F9A1 /* patatan.js */ = {
+			isa = PBXGroup;
+			children = (
+				74E402F11C1058230034F9A1 /* AppDelegate.swift */,
+				74E402F31C1058230034F9A1 /* Assets.xcassets */,
+				74E402F51C1058230034F9A1 /* MainMenu.xib */,
+				74E402F81C1058230034F9A1 /* Info.plist */,
+			);
+			path = patatan.js;
+			sourceTree = "<group>";
+		};
+		74E403001C1058230034F9A1 /* patatan.jsTests */ = {
+			isa = PBXGroup;
+			children = (
+				74E403011C1058230034F9A1 /* patatan_jsTests.swift */,
+				74E403031C1058230034F9A1 /* Info.plist */,
+			);
+			path = patatan.jsTests;
+			sourceTree = "<group>";
+		};
+		74E4030B1C1058230034F9A1 /* patatan.jsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74E4030C1C1058230034F9A1 /* patatan_jsUITests.swift */,
+				74E4030E1C1058230034F9A1 /* Info.plist */,
+			);
+			path = patatan.jsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74E402ED1C1058230034F9A1 /* patatan.js */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E403111C1058230034F9A1 /* Build configuration list for PBXNativeTarget "patatan.js" */;
+			buildPhases = (
+				74E402EA1C1058230034F9A1 /* Sources */,
+				74E402EB1C1058230034F9A1 /* Frameworks */,
+				74E402EC1C1058230034F9A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = patatan.js;
+			productName = patatan.js;
+			productReference = 74E402EE1C1058230034F9A1 /* patatan.js.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74E402FC1C1058230034F9A1 /* patatan.jsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E403141C1058230034F9A1 /* Build configuration list for PBXNativeTarget "patatan.jsTests" */;
+			buildPhases = (
+				74E402F91C1058230034F9A1 /* Sources */,
+				74E402FA1C1058230034F9A1 /* Frameworks */,
+				74E402FB1C1058230034F9A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E402FF1C1058230034F9A1 /* PBXTargetDependency */,
+			);
+			name = patatan.jsTests;
+			productName = patatan.jsTests;
+			productReference = 74E402FD1C1058230034F9A1 /* patatan.jsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74E403071C1058230034F9A1 /* patatan.jsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E403171C1058230034F9A1 /* Build configuration list for PBXNativeTarget "patatan.jsUITests" */;
+			buildPhases = (
+				74E403041C1058230034F9A1 /* Sources */,
+				74E403051C1058230034F9A1 /* Frameworks */,
+				74E403061C1058230034F9A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E4030A1C1058230034F9A1 /* PBXTargetDependency */,
+			);
+			name = patatan.jsUITests;
+			productName = patatan.jsUITests;
+			productReference = 74E403081C1058230034F9A1 /* patatan.jsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74E402E61C1058230034F9A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ike Ku";
+				TargetAttributes = {
+					74E402ED1C1058230034F9A1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					74E402FC1C1058230034F9A1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 74E402ED1C1058230034F9A1;
+					};
+					74E403071C1058230034F9A1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 74E402ED1C1058230034F9A1;
+					};
+				};
+			};
+			buildConfigurationList = 74E402E91C1058230034F9A1 /* Build configuration list for PBXProject "patatan.js" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74E402E51C1058230034F9A1;
+			productRefGroup = 74E402EF1C1058230034F9A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74E402ED1C1058230034F9A1 /* patatan.js */,
+				74E402FC1C1058230034F9A1 /* patatan.jsTests */,
+				74E403071C1058230034F9A1 /* patatan.jsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74E402EC1C1058230034F9A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E402F41C1058230034F9A1 /* Assets.xcassets in Resources */,
+				74E402F71C1058230034F9A1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E402FB1C1058230034F9A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E403061C1058230034F9A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74E402EA1C1058230034F9A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E402F21C1058230034F9A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E402F91C1058230034F9A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E403021C1058230034F9A1 /* patatan_jsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E403041C1058230034F9A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E4030D1C1058230034F9A1 /* patatan_jsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74E402FF1C1058230034F9A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74E402ED1C1058230034F9A1 /* patatan.js */;
+			targetProxy = 74E402FE1C1058230034F9A1 /* PBXContainerItemProxy */;
+		};
+		74E4030A1C1058230034F9A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74E402ED1C1058230034F9A1 /* patatan.js */;
+			targetProxy = 74E403091C1058230034F9A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74E402F51C1058230034F9A1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E402F61C1058230034F9A1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74E4030F1C1058230034F9A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74E403101C1058230034F9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		74E403121C1058230034F9A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = patatan.js/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dempfi.patatan-js";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74E403131C1058230034F9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = patatan.js/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dempfi.patatan-js";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74E403151C1058230034F9A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = patatan.jsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dempfi.patatan-jsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/patatan.js.app/Contents/MacOS/patatan.js";
+			};
+			name = Debug;
+		};
+		74E403161C1058230034F9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = patatan.jsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dempfi.patatan-jsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/patatan.js.app/Contents/MacOS/patatan.js";
+			};
+			name = Release;
+		};
+		74E403181C1058230034F9A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = patatan.jsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dempfi.patatan-jsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = patatan.js;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		74E403191C1058230034F9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = patatan.jsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dempfi.patatan-jsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = patatan.js;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74E402E91C1058230034F9A1 /* Build configuration list for PBXProject "patatan.js" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E4030F1C1058230034F9A1 /* Debug */,
+				74E403101C1058230034F9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E403111C1058230034F9A1 /* Build configuration list for PBXNativeTarget "patatan.js" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E403121C1058230034F9A1 /* Debug */,
+				74E403131C1058230034F9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74E403141C1058230034F9A1 /* Build configuration list for PBXNativeTarget "patatan.jsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E403151C1058230034F9A1 /* Debug */,
+				74E403161C1058230034F9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74E403171C1058230034F9A1 /* Build configuration list for PBXNativeTarget "patatan.jsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E403181C1058230034F9A1 /* Debug */,
+				74E403191C1058230034F9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74E402E61C1058230034F9A1 /* Project object */;
+}
