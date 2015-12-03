@@ -12,6 +12,9 @@
 		74E402F71C1058230034F9A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E402F51C1058230034F9A1 /* MainMenu.xib */; };
 		74E403021C1058230034F9A1 /* patatan_jsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E403011C1058230034F9A1 /* patatan_jsTests.swift */; };
 		74E4030D1C1058230034F9A1 /* patatan_jsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E4030C1C1058230034F9A1 /* patatan_jsUITests.swift */; };
+		74E4031B1C1058AE0034F9A1 /* JSApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E4031A1C1058AE0034F9A1 /* JSApi.swift */; };
+		74E4031D1C1058F40034F9A1 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 74E4031C1C1058F40034F9A1 /* main.js */; };
+		74E4031F1C1059160034F9A1 /* main.html in Resources */ = {isa = PBXBuildFile; fileRef = 74E4031E1C1059160034F9A1 /* main.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		74E403081C1058230034F9A1 /* patatan.jsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = patatan.jsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E4030C1C1058230034F9A1 /* patatan_jsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patatan_jsUITests.swift; sourceTree = "<group>"; };
 		74E4030E1C1058230034F9A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E4031A1C1058AE0034F9A1 /* JSApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSApi.swift; sourceTree = "<group>"; };
+		74E4031C1C1058F40034F9A1 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		74E4031E1C1059160034F9A1 /* main.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = main.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 				74E402F31C1058230034F9A1 /* Assets.xcassets */,
 				74E402F51C1058230034F9A1 /* MainMenu.xib */,
 				74E402F81C1058230034F9A1 /* Info.plist */,
+				74E4031A1C1058AE0034F9A1 /* JSApi.swift */,
+				74E4031C1C1058F40034F9A1 /* main.js */,
+				74E4031E1C1059160034F9A1 /* main.html */,
 			);
 			path = patatan.js;
 			sourceTree = "<group>";
@@ -223,6 +232,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E4031D1C1058F40034F9A1 /* main.js in Resources */,
+				74E4031F1C1059160034F9A1 /* main.html in Resources */,
 				74E402F41C1058230034F9A1 /* Assets.xcassets in Resources */,
 				74E402F71C1058230034F9A1 /* MainMenu.xib in Resources */,
 			);
@@ -250,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74E402F21C1058230034F9A1 /* AppDelegate.swift in Sources */,
+				74E4031B1C1058AE0034F9A1 /* JSApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

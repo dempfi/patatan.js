@@ -7,15 +7,19 @@
 //
 
 import Cocoa
+import WebKit
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    @IBOutlet weak var window: NSWindow!
-
+    var context: JSContext!
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
-        // Insert code here to initialize your application
+        let path = NSBundle.mainBundle().pathForResource("main", ofType: "js")
+        let source = try? String(contentsOfFile: path!, encoding: NSUTF8StringEncoding)
+        self.context = JSContext()
+        self.context.setObject(JSApi(), forKeyedSubscript: "patatan")
+        self.context.evaluateScript(source)
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
